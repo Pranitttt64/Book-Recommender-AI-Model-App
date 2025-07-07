@@ -37,7 +37,7 @@ An intelligent book recommender web app powered by **Keras Autoencoders** and **
   - `book_predictions.npy`: Autoencoder prediction matrix
   - `ratings_train.npy`: Training interaction matrix
   - `merged_data.csv`: Cleaned dataset of books, users, ratings
-  - `book_lottie.json`: Animation for intro
+  - `Animation - 1751816715171.json`: Lottie animation for intro
 
 ---
 
@@ -56,16 +56,13 @@ An intelligent book recommender web app powered by **Keras Autoencoders** and **
 
 ```
 📦 Book-Recommender-AI-Model-App
-├── 📜 BOOK_REC_APP.py          # Streamlit app
-├── 📓 Book_Recommender_Notebook.ipynb  # Jupyter notebook for model
-├── 📂 data/
-│   ├── merged_data.csv
-│   ├── book_predictions.npy
-│   └── ratings_train.npy
-├── 📂 assets/
-│   └── book_lottie.json
-├── 📜 requirements.txt
-└── 📄 README.md
+├── 📜 BOOK_REC_APP.py                # Streamlit app frontend
+├── 📓 ML.ipynb                       # Jupyter notebook for model training
+├── 📄 LICENSE
+├── 📄 README.md
+├── 📦 RAW SOURCED DATABASE FILES.zip # Zipped raw datasets
+├── 📄 book_autoencoder_epoch12.h5    # Trained Keras autoencoder model
+├── 📄 Animation - 1751816715171.json # Lottie animation file
 ```
 
 ---
@@ -77,14 +74,14 @@ An intelligent book recommender web app powered by **Keras Autoencoders** and **
 $ git clone https://github.com/Pranitttt64/Book-Recommender-AI-Model-App.git
 $ cd Book-Recommender-AI-Model-App
 
-# Create and activate virtual environment (recommended)
+# (Optional but recommended) Create virtual environment
 $ python -m venv venv
-$ source venv/bin/activate        # On Windows: venv\Scripts\activate
+$ venv\Scripts\activate     # On Windows
 
-# Install required libraries
+# Install dependencies
 $ pip install -r requirements.txt
 
-# Launch the app
+# Run the app
 $ streamlit run BOOK_REC_APP.py
 ```
 
@@ -94,7 +91,7 @@ $ streamlit run BOOK_REC_APP.py
 
 Built with ❤️ by **Pranit Saundankar**
 
-- [LinkedIn](https://www.linkedin.com/in/pranitsaundankar)
+- [LinkedIn]([https://www.linkedin.com/in/pranitsaundankar](https://www.linkedin.com/in/pranit-saundankar-68532328b/))
 - [GitHub](https://github.com/Pranitttt64)
 
 ---
@@ -102,11 +99,5 @@ Built with ❤️ by **Pranit Saundankar**
 ## 🏷️ Tags
 
 `Deep Learning` `Recommender System` `Streamlit` `Keras` `Python` `Portfolio Project` `Autoencoder`
-
----
-
-## 🖼 Optional Enhancements
-
-> Add a banner or animation preview here (GIF of the app in use, or project banner)
 
 ---
