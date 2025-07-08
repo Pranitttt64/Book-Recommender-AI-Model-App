@@ -16,7 +16,7 @@ An intelligent book recommender web app powered by **Keras Autoencoders** and **
 
 ## 🎥 Demo
 
-https://github.com/Pranitttt64/Book-Recommender-AI-Model-App/blob/main/DEMO.mp4
+https://github.com/user-attachments/assets/4f173ff1-f841-456b-9548-fdeeb0f5bbf4
 
 > ✨ *This video demonstrates the full functionality of the app, from smart recommendations to filter-based discovery and CSV downloads — all wrapped in a professional dark-themed UI.*
 
@@ -36,7 +36,7 @@ https://github.com/Pranitttt64/Book-Recommender-AI-Model-App/blob/main/DEMO.mp4
 
 ---
 
-## 🧐 Built With
+## 🤔 Built With
 
 - **Frontend/UI**: Streamlit, HTML/CSS (via Markdown), Lottie
 - **ML Model**: Keras Autoencoder
