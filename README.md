@@ -14,6 +14,14 @@ An intelligent book recommender web app powered by **Keras Autoencoders** and **
 
 ---
 
+## 🎥 Demo
+
+https://github.com/Pranitttt64/Book-Recommender-AI-Model-App/blob/main/DEMO.mp4
+
+> ✨ *This video demonstrates the full functionality of the app, from smart recommendations to filter-based discovery and CSV downloads — all wrapped in a professional dark-themed UI.*
+
+---
+
 ## ✨ Key Features
 
 - 🔍 **Collaborative Filtering**: Personalized recommendations by analyzing user behavior
@@ -24,11 +32,11 @@ An intelligent book recommender web app powered by **Keras Autoencoders** and **
   - Streamlit dark theme with gradient buttons, hover effects, shadows
   - **Lottie animation** intro splash screen
   - Responsive layout and styled DataFrames
-- 📤 **CSV Export**: Download your recommendations for later use
+- 📄 **CSV Export**: Download your recommendations for later use
 
 ---
 
-## 🧠 Built With
+## 🧐 Built With
 
 - **Frontend/UI**: Streamlit, HTML/CSS (via Markdown), Lottie
 - **ML Model**: Keras Autoencoder
@@ -61,8 +69,12 @@ An intelligent book recommender web app powered by **Keras Autoencoders** and **
 ├── 📄 LICENSE
 ├── 📄 README.md
 ├── 📦 RAW SOURCED DATABASE FILES.zip # Zipped raw datasets
+├── 📄 book_predictions.npy           # Predicted matrix from autoencoder
+├── 📄 ratings_train.npy              # Training ratings matrix
+├── 📄 merged_data.csv                # Final dataset used for recs
 ├── 📄 book_autoencoder_epoch12.h5    # Trained Keras autoencoder model
 ├── 📄 Animation - 1751816715171.json # Lottie animation file
+├── 🎥 DEMO.mp4                       # Demo walkthrough video
 ```
 
 ---
@@ -87,11 +99,11 @@ $ streamlit run BOOK_REC_APP.py
 
 ---
 
-## 🙋‍♂️ Author
+## 👨‍💻 Author
 
 Built with ❤️ by **Pranit Saundankar**
 
-- [LinkedIn]([https://www.linkedin.com/in/pranitsaundankar](https://www.linkedin.com/in/pranit-saundankar-68532328b/))
+- [LinkedIn](https://www.linkedin.com/in/pranit-saundankar-68532328b/)
 - [GitHub](https://github.com/Pranitttt64)
 
 ---
